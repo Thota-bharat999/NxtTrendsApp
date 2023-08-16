@@ -1,0 +1,44 @@
+.nav-header {
+  display: flex;
+  justify-content: center;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1110px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.website-logo {
+  width: 110px;
+}
+@media screen and (min-width: 768px) {
+  .website-logo {
+    width: 165px;
+  }
+}
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: flex-end;
+  flex: 1;
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+@media screen and (max-width: 768px) {
+  .nav-menu {
+    display: none;
+  }
+}
+.nav-link {
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  color: #475569;
+  margin: 8px;
+}
